@@ -25,7 +25,7 @@ setup_args = dict(
     author_email        = "jupyter@googlegroups.org",
     py_modules          = [],
     install_requires    = [
-        'notebook',
+        'notebook @ https://github.com/Encore-Tooling/notebook.git'
         'jupyter-console',
         'nbconvert',
         'ipykernel',
